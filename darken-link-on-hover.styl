@@ -1,0 +1,5 @@
+darken-link-on-hover(amount = 20, duration = 0.5s)
+  transition-property: color
+  transition-duration: duration
+  &:hover
+    color: darken(@color, amount)
